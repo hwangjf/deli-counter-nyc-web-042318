@@ -10,5 +10,5 @@ def line(array)
     c_line += n.to_s + ". #{i} "
     n += 1
   end
-  return "The line is currently: " + c_line
+  puts "The line is currently: " + c_line
 end
