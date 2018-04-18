@@ -6,7 +6,7 @@ def line(array)
   end
   n = 1
   for i in array
-    puts n + ". #{i}"
+    puts n.to_s + ". #{i}"
     n += 1
   end
 end
