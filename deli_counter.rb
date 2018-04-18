@@ -5,6 +5,7 @@ def line(array)
     puts "The line is currently empty."
   end
   n = 1
+  c_line = "The line is currently: "
   for i in array
     puts n.to_s + ". #{i}"
     n += 1
